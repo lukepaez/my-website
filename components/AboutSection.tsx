@@ -34,10 +34,10 @@ const AboutSection = () => {
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
               My Skills
             </h1>
-            <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start mt-2">
+            <div className="flex flex-wrap flex-row justify-center z-10 md:justify-evenly mt-2">
               {skill_img.map((item) => {
                 return (
-                  <div className=" w-20 h-20 mr-2" key={item.id}>
+                  <div className=" w-20 h-20 mr-2 mb-2" key={item.id}>
                     <img key={item.id} src={item.src} alt={item.alt} />
                   </div>
                 );
