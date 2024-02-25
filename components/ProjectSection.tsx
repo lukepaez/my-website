@@ -6,27 +6,28 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
-    name: "Thankful Thoughts",
-    description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/lukepaez",
+    name: "do",
+    description: `AI-Powered life management assistant designed to help you take control of your day, optimize your time, and achieve your most ambitious goals.
+    Built using the Fastify framework and leveraging the cutting-edge capabilities of OpenAI's Assistants API.`,
+    image: "/do.png",
+    github: "https://github.com/lukepaez/do",
     link: "",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/lukepaez",
+    name: "Cryptly",
+    description:
+      "Cryptly is a password generator tool designed with customizable features to enhance user security.",
+    image: "/cryptly.png",
+    github: "https://github.com/lukepaez/pwd-generator",
     link: "",
   },
   {
-    name: "Kator Family Photos",
+    name: "Personal Portfolio",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/lukepaez",
-    link: "",
+      "Personal portfolio documenting my career, skills, and projects.",
+    image: "/snapshot.png",
+    github: "https://github.com/lukepaez/my-website",
+    link: "https://paezluke.vercel.app/",
   },
 ];
 
