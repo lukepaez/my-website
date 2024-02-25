@@ -5,7 +5,7 @@ const AboutSection = () => {
   return (
     <section id="about">
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
-        <h1 className="text-center font-bold text-4xl">
+        <h1 className="text-center font-bold text-4xl pb-4">
           About Me
           <hr className="w-10 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
         </h1>
@@ -15,19 +15,27 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              I am an <span className="font-bold">{"established"}</span>{" "}
-              software engineer with a deep passion for{" "}
+              I am an established software engineer with a deep passion for{" "}
               <span className="font-bold">{"finance"}</span> and
               <span className="font-bold">{" economics"}</span>.
             </p>
             <br />
             <p>
-              I bring strong technical acumen, a track record of delivering
-              innovative solutions, and a relentless drive for excellence.
-              Poised to create forward-thinking strategies that have a lasting
-              impact and excited to tackle new challenges, collaborate with
-              diverse teams, and drive digital transformation, all while
-              aspiring to make a positive difference.
+              Graduated from Clemson University in 2019 with a BS in{" "}
+              <span className="font-bold">{"Computer Science"}</span> and am
+              currently working on building innovative solutions at Ally
+              Financial.
+            </p>
+            <br />
+            <p>
+              My desire is to evolve my curiosity for decoding financial trends,
+              unearthing investment opportunities, and leveraging real estate as
+              a vehicle for wealth generation. All the while, staying committed
+              to using my knowledge to{" "}
+              <span className="font-bold">{"empower"}</span> others,
+              <span className="font-bold">{" demystifying"}</span> intimidating
+              realms of personal finance, and encourage individuals to unlock
+              thier financial potential.
             </p>
           </div>
           <div className="md:w-1/2">

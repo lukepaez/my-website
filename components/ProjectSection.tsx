@@ -15,8 +15,7 @@ const projects = [
   },
   {
     name: "Cryptly",
-    description:
-      "Cryptly is a password generator tool designed with customizable features to enhance user security.",
+    description: `Cryptly is a password generator tool designed with customizable features to enhance user security. Stack includes React, Express, and Chakra UI.`,
     image: "/cryptly.png",
     github: "https://github.com/lukepaez/pwd-generator",
     link: "",
